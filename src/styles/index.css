@@ -1,11 +1,58 @@
-/* 
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
 
-*/
+.Navbar {
+    padding: 5px 100px;
+    background: rgb(57, 57, 61);
+    max-width: 100%
+    
+}
+
+.Jumbotron {
+    margin-top: 20px;
+    background: rgb(231, 233, 233);
+    align-items: left;
+    padding: 10px 20px 40px;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px;
+}
+
+.Card {
+    width: 80%;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Footer {
+    margin: 15px;
+    padding: 10px;
+    width: 100%;
+    background: rgb(57, 57, 61);
+    color: white;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+img {
+    width: 100%;
+    height: 200px;
+    background: rgb(222, 222, 222);
+}
